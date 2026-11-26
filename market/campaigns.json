@@ -1,0 +1,442 @@
+[
+  {
+    "code": "C01",
+    "alias": "competition",
+    "price_min_cad": 199,
+    "price_max_cad": 399,
+    "keyword": "competitor analysis Vancouver",
+    "status": "DRAFT",
+    "creative_brief": "Editorial navy/ivory typography; single problem, outcome, brand, CTA; no unsupported results or stock customer claims.",
+    "metrics": [
+      "conversations",
+      "qualified",
+      "quotes",
+      "verified_receipts",
+      "direct_cost",
+      "ad_spend"
+    ],
+    "en": {
+      "headline": "Why are your competitors winning?",
+      "support": "See the market through your customers’ eyes.",
+      "scope": "Compare up to five local rivals, positioning, public reviews and customer journeys; receive evidence and a prioritized action plan.",
+      "cta": "Request a free initial consultation",
+      "landing": "/c01-en.html",
+      "variants": [
+        "Why are your competitors winning?\nSee the market through your customers’ eyes.\nRequest a free initial consultation",
+        "What makes customers choose another business?\nSee the market through your customers’ eyes.\nRequest a free initial consultation",
+        "Find the opportunities your competitors have already found.\nSee the market through your customers’ eyes.\nRequest a free initial consultation"
+      ],
+      "facebook": "Why are your competitors winning?\nSee the market through your customers’ eyes.\nCompare up to five local rivals, positioning, public reviews and customer journeys; receive evidence and a prioritized action plan.\nRequest a free initial consultation · Vancouver · English / فارسی",
+      "telegram": "Why are your competitors winning?\nSee the market through your customers’ eyes.\nShoreline Digital | Request a free initial consultation",
+      "whatsapp": "Why are your competitors winning?\nSee the market through your customers’ eyes.\nShoreline Digital | Request a free initial consultation",
+      "instagram": "Why are your competitors winning?\nSee the market through your customers’ eyes.\nRequest a free initial consultation\n#VancouverBusiness",
+      "linkedin": "Why are your competitors winning?\nSee the market through your customers’ eyes.\nCompare up to five local rivals, positioning, public reviews and customer journeys; receive evidence and a prioritized action plan.\nRequest a free initial consultation · Vancouver · English / فارسی",
+      "email_template": "Hello [name],\nI noticed [verified observation] at [business]. See the market through your customers’ eyes. We can discuss whether a scoped review would be useful. Request a free initial consultation.\n[legal sender name, mailing address, contact and unsubscribe]",
+      "follow_up": "DRAFT → eligible contact or permitted post → actual evidence → reply → discovery → quote → verified payment. No automatic send."
+    },
+    "fa": {
+      "headline": "چرا مشتریان رقبای شما را انتخاب می‌کنند؟",
+      "support": "بازار را از نگاه مشتریان خود ببینید.",
+      "scope": "تا پنج رقیب محلی، جایگاه تجاری، نظرات عمومی و مسیر مشتری را مقایسه می‌کنیم؛ همراه با شواهد و برنامه عملی.",
+      "cta": "درخواست مشاوره اولیه رایگان",
+      "landing": "/c01-fa.html",
+      "variants": [
+        "چرا مشتریان رقبای شما را انتخاب می‌کنند؟\nبازار را از نگاه مشتریان خود ببینید.\nدرخواست مشاوره اولیه رایگان",
+        "چرا مشتری سراغ رقیب می‌رود؟\nبازار را از نگاه مشتریان خود ببینید.\nدرخواست مشاوره اولیه رایگان",
+        "فرصت‌های رشد کسب‌وکارتان را بهتر بشناسید.\nبازار را از نگاه مشتریان خود ببینید.\nدرخواست مشاوره اولیه رایگان"
+      ],
+      "facebook": "چرا مشتریان رقبای شما را انتخاب می‌کنند؟\nبازار را از نگاه مشتریان خود ببینید.\nتا پنج رقیب محلی، جایگاه تجاری، نظرات عمومی و مسیر مشتری را مقایسه می‌کنیم؛ همراه با شواهد و برنامه عملی.\nدرخواست مشاوره اولیه رایگان · Vancouver · English / فارسی",
+      "telegram": "چرا مشتریان رقبای شما را انتخاب می‌کنند؟\nبازار را از نگاه مشتریان خود ببینید.\nShoreline Digital | درخواست مشاوره اولیه رایگان",
+      "whatsapp": "چرا مشتریان رقبای شما را انتخاب می‌کنند؟\nبازار را از نگاه مشتریان خود ببینید.\nShoreline Digital | درخواست مشاوره اولیه رایگان",
+      "instagram": "چرا مشتریان رقبای شما را انتخاب می‌کنند؟\nبازار را از نگاه مشتریان خود ببینید.\nدرخواست مشاوره اولیه رایگان\n#VancouverBusiness",
+      "linkedin": "چرا مشتریان رقبای شما را انتخاب می‌کنند؟\nبازار را از نگاه مشتریان خود ببینید.\nتا پنج رقیب محلی، جایگاه تجاری، نظرات عمومی و مسیر مشتری را مقایسه می‌کنیم؛ همراه با شواهد و برنامه عملی.\nدرخواست مشاوره اولیه رایگان · Vancouver · English / فارسی",
+      "email_template": "سلام [نام]،\nدر بررسی [کسب‌وکار] به [مشاهده مستند] برخوردم. بازار را از نگاه مشتریان خود ببینید. در صورت تمایل درباره یک راهکار مشخص گفت‌وگو کنیم.\n[نام قانونی فرستنده، نشانی پستی، تماس و لغو دریافت]",
+      "follow_up": "DRAFT → eligible contact or permitted post → actual evidence → reply → discovery → quote → verified payment. No automatic send."
+    }
+  },
+  {
+    "code": "C02",
+    "alias": "visibility",
+    "price_min_cad": 299,
+    "price_max_cad": 599,
+    "keyword": "local SEO services Vancouver",
+    "status": "DRAFT",
+    "creative_brief": "Editorial navy/ivory typography; single problem, outcome, brand, CTA; no unsupported results or stock customer claims.",
+    "metrics": [
+      "conversations",
+      "qualified",
+      "quotes",
+      "verified_receipts",
+      "direct_cost",
+      "ad_spend"
+    ],
+    "en": {
+      "headline": "Your business deserves better visibility.",
+      "support": "Make it easier for local customers to find and contact you.",
+      "scope": "Review local discovery, website messaging, mobile journeys and inquiry paths; agree on targeted improvements.",
+      "cta": "Request a free initial consultation",
+      "landing": "/c02-en.html",
+      "variants": [
+        "Your business deserves better visibility.\nMake it easier for local customers to find and contact you.\nRequest a free initial consultation",
+        "Can local customers find you when they need you?\nMake it easier for local customers to find and contact you.\nRequest a free initial consultation",
+        "Turn a better online presence into a clearer path to inquiry.\nMake it easier for local customers to find and contact you.\nRequest a free initial consultation"
+      ],
+      "facebook": "Your business deserves better visibility.\nMake it easier for local customers to find and contact you.\nReview local discovery, website messaging, mobile journeys and inquiry paths; agree on targeted improvements.\nRequest a free initial consultation · Vancouver · English / فارسی",
+      "telegram": "Your business deserves better visibility.\nMake it easier for local customers to find and contact you.\nShoreline Digital | Request a free initial consultation",
+      "whatsapp": "Your business deserves better visibility.\nMake it easier for local customers to find and contact you.\nShoreline Digital | Request a free initial consultation",
+      "instagram": "Your business deserves better visibility.\nMake it easier for local customers to find and contact you.\nRequest a free initial consultation\n#VancouverBusiness",
+      "linkedin": "Your business deserves better visibility.\nMake it easier for local customers to find and contact you.\nReview local discovery, website messaging, mobile journeys and inquiry paths; agree on targeted improvements.\nRequest a free initial consultation · Vancouver · English / فارسی",
+      "email_template": "Hello [name],\nI noticed [verified observation] at [business]. Make it easier for local customers to find and contact you. We can discuss whether a scoped review would be useful. Request a free initial consultation.\n[legal sender name, mailing address, contact and unsubscribe]",
+      "follow_up": "DRAFT → eligible contact or permitted post → actual evidence → reply → discovery → quote → verified payment. No automatic send."
+    },
+    "fa": {
+      "headline": "کسب‌وکار خوب نباید ناشناخته بماند.",
+      "support": "پیدا کردن و تماس با شما را برای مشتریان آسان‌تر کنید.",
+      "scope": "حضور محلی، پیام سایت، تجربه موبایل و مسیر درخواست مشتری را بررسی و اصلاح می‌کنیم.",
+      "cta": "درخواست مشاوره اولیه رایگان",
+      "landing": "/c02-fa.html",
+      "variants": [
+        "کسب‌وکار خوب نباید ناشناخته بماند.\nپیدا کردن و تماس با شما را برای مشتریان آسان‌تر کنید.\nدرخواست مشاوره اولیه رایگان",
+        "آیا مشتریان محلی شما را پیدا می‌کنند؟\nپیدا کردن و تماس با شما را برای مشتریان آسان‌تر کنید.\nدرخواست مشاوره اولیه رایگان",
+        "حضور آنلاین خود را به یک مسیر روشن برای جذب مشتری تبدیل کنید.\nپیدا کردن و تماس با شما را برای مشتریان آسان‌تر کنید.\nدرخواست مشاوره اولیه رایگان"
+      ],
+      "facebook": "کسب‌وکار خوب نباید ناشناخته بماند.\nپیدا کردن و تماس با شما را برای مشتریان آسان‌تر کنید.\nحضور محلی، پیام سایت، تجربه موبایل و مسیر درخواست مشتری را بررسی و اصلاح می‌کنیم.\nدرخواست مشاوره اولیه رایگان · Vancouver · English / فارسی",
+      "telegram": "کسب‌وکار خوب نباید ناشناخته بماند.\nپیدا کردن و تماس با شما را برای مشتریان آسان‌تر کنید.\nShoreline Digital | درخواست مشاوره اولیه رایگان",
+      "whatsapp": "کسب‌وکار خوب نباید ناشناخته بماند.\nپیدا کردن و تماس با شما را برای مشتریان آسان‌تر کنید.\nShoreline Digital | درخواست مشاوره اولیه رایگان",
+      "instagram": "کسب‌وکار خوب نباید ناشناخته بماند.\nپیدا کردن و تماس با شما را برای مشتریان آسان‌تر کنید.\nدرخواست مشاوره اولیه رایگان\n#VancouverBusiness",
+      "linkedin": "کسب‌وکار خوب نباید ناشناخته بماند.\nپیدا کردن و تماس با شما را برای مشتریان آسان‌تر کنید.\nحضور محلی، پیام سایت، تجربه موبایل و مسیر درخواست مشتری را بررسی و اصلاح می‌کنیم.\nدرخواست مشاوره اولیه رایگان · Vancouver · English / فارسی",
+      "email_template": "سلام [نام]،\nدر بررسی [کسب‌وکار] به [مشاهده مستند] برخوردم. پیدا کردن و تماس با شما را برای مشتریان آسان‌تر کنید. در صورت تمایل درباره یک راهکار مشخص گفت‌وگو کنیم.\n[نام قانونی فرستنده، نشانی پستی، تماس و لغو دریافت]",
+      "follow_up": "DRAFT → eligible contact or permitted post → actual evidence → reply → discovery → quote → verified payment. No automatic send."
+    }
+  },
+  {
+    "code": "C03",
+    "alias": "ad-performance",
+    "price_min_cad": 249,
+    "price_max_cad": 499,
+    "keyword": "Google Ads audit Vancouver",
+    "status": "DRAFT",
+    "creative_brief": "Editorial navy/ivory typography; single problem, outcome, brand, CTA; no unsupported results or stock customer claims.",
+    "metrics": [
+      "conversations",
+      "qualified",
+      "quotes",
+      "verified_receipts",
+      "direct_cost",
+      "ad_spend"
+    ],
+    "en": {
+      "headline": "Stop wasting your advertising budget.",
+      "support": "Find where your advertising journey breaks down.",
+      "scope": "Review account data you provide, tracking, offer, landing page and follow-up; deliver test priorities. Ad spend excluded.",
+      "cta": "Request a free initial consultation",
+      "landing": "/c03-en.html",
+      "variants": [
+        "Stop wasting your advertising budget.\nFind where your advertising journey breaks down.\nRequest a free initial consultation",
+        "Clicks are not the same as customers.\nFind where your advertising journey breaks down.\nRequest a free initial consultation",
+        "Know what to fix before increasing your budget.\nFind where your advertising journey breaks down.\nRequest a free initial consultation"
+      ],
+      "facebook": "Stop wasting your advertising budget.\nFind where your advertising journey breaks down.\nReview account data you provide, tracking, offer, landing page and follow-up; deliver test priorities. Ad spend excluded.\nRequest a free initial consultation · Vancouver · English / فارسی",
+      "telegram": "Stop wasting your advertising budget.\nFind where your advertising journey breaks down.\nShoreline Digital | Request a free initial consultation",
+      "whatsapp": "Stop wasting your advertising budget.\nFind where your advertising journey breaks down.\nShoreline Digital | Request a free initial consultation",
+      "instagram": "Stop wasting your advertising budget.\nFind where your advertising journey breaks down.\nRequest a free initial consultation\n#VancouverBusiness",
+      "linkedin": "Stop wasting your advertising budget.\nFind where your advertising journey breaks down.\nReview account data you provide, tracking, offer, landing page and follow-up; deliver test priorities. Ad spend excluded.\nRequest a free initial consultation · Vancouver · English / فارسی",
+      "email_template": "Hello [name],\nI noticed [verified observation] at [business]. Find where your advertising journey breaks down. We can discuss whether a scoped review would be useful. Request a free initial consultation.\n[legal sender name, mailing address, contact and unsubscribe]",
+      "follow_up": "DRAFT → eligible contact or permitted post → actual evidence → reply → discovery → quote → verified payment. No automatic send."
+    },
+    "fa": {
+      "headline": "قبل از تبلیغ دوباره، مشکل را پیدا کنید.",
+      "support": "مشخص کنید مسیر تبلیغ تا خرید کجا دچار مشکل است.",
+      "scope": "داده‌های تبلیغاتی که ارائه می‌کنید، پیام، رهگیری، صفحه فرود و پیگیری مشتری را بررسی می‌کنیم. هزینه تبلیغات جداست.",
+      "cta": "درخواست مشاوره اولیه رایگان",
+      "landing": "/c03-fa.html",
+      "variants": [
+        "قبل از تبلیغ دوباره، مشکل را پیدا کنید.\nمشخص کنید مسیر تبلیغ تا خرید کجا دچار مشکل است.\nدرخواست مشاوره اولیه رایگان",
+        "کلیک با مشتری یکی نیست.\nمشخص کنید مسیر تبلیغ تا خرید کجا دچار مشکل است.\nدرخواست مشاوره اولیه رایگان",
+        "قبل از افزایش بودجه تبلیغاتی، علت مشکل را مشخص کنید.\nمشخص کنید مسیر تبلیغ تا خرید کجا دچار مشکل است.\nدرخواست مشاوره اولیه رایگان"
+      ],
+      "facebook": "قبل از تبلیغ دوباره، مشکل را پیدا کنید.\nمشخص کنید مسیر تبلیغ تا خرید کجا دچار مشکل است.\nداده‌های تبلیغاتی که ارائه می‌کنید، پیام، رهگیری، صفحه فرود و پیگیری مشتری را بررسی می‌کنیم. هزینه تبلیغات جداست.\nدرخواست مشاوره اولیه رایگان · Vancouver · English / فارسی",
+      "telegram": "قبل از تبلیغ دوباره، مشکل را پیدا کنید.\nمشخص کنید مسیر تبلیغ تا خرید کجا دچار مشکل است.\nShoreline Digital | درخواست مشاوره اولیه رایگان",
+      "whatsapp": "قبل از تبلیغ دوباره، مشکل را پیدا کنید.\nمشخص کنید مسیر تبلیغ تا خرید کجا دچار مشکل است.\nShoreline Digital | درخواست مشاوره اولیه رایگان",
+      "instagram": "قبل از تبلیغ دوباره، مشکل را پیدا کنید.\nمشخص کنید مسیر تبلیغ تا خرید کجا دچار مشکل است.\nدرخواست مشاوره اولیه رایگان\n#VancouverBusiness",
+      "linkedin": "قبل از تبلیغ دوباره، مشکل را پیدا کنید.\nمشخص کنید مسیر تبلیغ تا خرید کجا دچار مشکل است.\nداده‌های تبلیغاتی که ارائه می‌کنید، پیام، رهگیری، صفحه فرود و پیگیری مشتری را بررسی می‌کنیم. هزینه تبلیغات جداست.\nدرخواست مشاوره اولیه رایگان · Vancouver · English / فارسی",
+      "email_template": "سلام [نام]،\nدر بررسی [کسب‌وکار] به [مشاهده مستند] برخوردم. مشخص کنید مسیر تبلیغ تا خرید کجا دچار مشکل است. در صورت تمایل درباره یک راهکار مشخص گفت‌وگو کنیم.\n[نام قانونی فرستنده، نشانی پستی، تماس و لغو دریافت]",
+      "follow_up": "DRAFT → eligible contact or permitted post → actual evidence → reply → discovery → quote → verified payment. No automatic send."
+    }
+  },
+  {
+    "code": "C04",
+    "alias": "launch",
+    "price_min_cad": 399,
+    "price_max_cad": 999,
+    "keyword": "small business website Vancouver",
+    "status": "DRAFT",
+    "creative_brief": "Editorial navy/ivory typography; single problem, outcome, brand, CTA; no unsupported results or stock customer claims.",
+    "metrics": [
+      "conversations",
+      "qualified",
+      "quotes",
+      "verified_receipts",
+      "direct_cost",
+      "ad_spend"
+    ],
+    "en": {
+      "headline": "Launch your business professionally.",
+      "support": "Start with a clear offer and a working inquiry path.",
+      "scope": "Define your digital launch priorities, core messaging, landing page and contact flow; agree on scope before implementation.",
+      "cta": "Request a free initial consultation",
+      "landing": "/c04-en.html",
+      "variants": [
+        "Launch your business professionally.\nStart with a clear offer and a working inquiry path.\nRequest a free initial consultation",
+        "Opening soon? Start with the essentials.\nStart with a clear offer and a working inquiry path.\nRequest a free initial consultation",
+        "Build a digital first impression that matches your business.\nStart with a clear offer and a working inquiry path.\nRequest a free initial consultation"
+      ],
+      "facebook": "Launch your business professionally.\nStart with a clear offer and a working inquiry path.\nDefine your digital launch priorities, core messaging, landing page and contact flow; agree on scope before implementation.\nRequest a free initial consultation · Vancouver · English / فارسی",
+      "telegram": "Launch your business professionally.\nStart with a clear offer and a working inquiry path.\nShoreline Digital | Request a free initial consultation",
+      "whatsapp": "Launch your business professionally.\nStart with a clear offer and a working inquiry path.\nShoreline Digital | Request a free initial consultation",
+      "instagram": "Launch your business professionally.\nStart with a clear offer and a working inquiry path.\nRequest a free initial consultation\n#VancouverBusiness",
+      "linkedin": "Launch your business professionally.\nStart with a clear offer and a working inquiry path.\nDefine your digital launch priorities, core messaging, landing page and contact flow; agree on scope before implementation.\nRequest a free initial consultation · Vancouver · English / فارسی",
+      "email_template": "Hello [name],\nI noticed [verified observation] at [business]. Start with a clear offer and a working inquiry path. We can discuss whether a scoped review would be useful. Request a free initial consultation.\n[legal sender name, mailing address, contact and unsubscribe]",
+      "follow_up": "DRAFT → eligible contact or permitted post → actual evidence → reply → discovery → quote → verified payment. No automatic send."
+    },
+    "fa": {
+      "headline": "کسب‌وکارتان را حرفه‌ای راه‌اندازی کنید.",
+      "support": "از روز اول با معرفی روشن و مسیر درخواست واقعی شروع کنید.",
+      "scope": "اولویت‌های راه‌اندازی دیجیتال، پیام برند، صفحه معرفی و مسیر تماس را مشخص و طبق توافق اجرا می‌کنیم.",
+      "cta": "درخواست مشاوره اولیه رایگان",
+      "landing": "/c04-fa.html",
+      "variants": [
+        "کسب‌وکارتان را حرفه‌ای راه‌اندازی کنید.\nاز روز اول با معرفی روشن و مسیر درخواست واقعی شروع کنید.\nدرخواست مشاوره اولیه رایگان",
+        "به‌زودی افتتاح می‌کنید؟\nاز روز اول با معرفی روشن و مسیر درخواست واقعی شروع کنید.\nدرخواست مشاوره اولیه رایگان",
+        "از ابتدا حضور دیجیتال متناسب با کیفیت کسب‌وکارتان داشته باشید.\nاز روز اول با معرفی روشن و مسیر درخواست واقعی شروع کنید.\nدرخواست مشاوره اولیه رایگان"
+      ],
+      "facebook": "کسب‌وکارتان را حرفه‌ای راه‌اندازی کنید.\nاز روز اول با معرفی روشن و مسیر درخواست واقعی شروع کنید.\nاولویت‌های راه‌اندازی دیجیتال، پیام برند، صفحه معرفی و مسیر تماس را مشخص و طبق توافق اجرا می‌کنیم.\nدرخواست مشاوره اولیه رایگان · Vancouver · English / فارسی",
+      "telegram": "کسب‌وکارتان را حرفه‌ای راه‌اندازی کنید.\nاز روز اول با معرفی روشن و مسیر درخواست واقعی شروع کنید.\nShoreline Digital | درخواست مشاوره اولیه رایگان",
+      "whatsapp": "کسب‌وکارتان را حرفه‌ای راه‌اندازی کنید.\nاز روز اول با معرفی روشن و مسیر درخواست واقعی شروع کنید.\nShoreline Digital | درخواست مشاوره اولیه رایگان",
+      "instagram": "کسب‌وکارتان را حرفه‌ای راه‌اندازی کنید.\nاز روز اول با معرفی روشن و مسیر درخواست واقعی شروع کنید.\nدرخواست مشاوره اولیه رایگان\n#VancouverBusiness",
+      "linkedin": "کسب‌وکارتان را حرفه‌ای راه‌اندازی کنید.\nاز روز اول با معرفی روشن و مسیر درخواست واقعی شروع کنید.\nاولویت‌های راه‌اندازی دیجیتال، پیام برند، صفحه معرفی و مسیر تماس را مشخص و طبق توافق اجرا می‌کنیم.\nدرخواست مشاوره اولیه رایگان · Vancouver · English / فارسی",
+      "email_template": "سلام [نام]،\nدر بررسی [کسب‌وکار] به [مشاهده مستند] برخوردم. از روز اول با معرفی روشن و مسیر درخواست واقعی شروع کنید. در صورت تمایل درباره یک راهکار مشخص گفت‌وگو کنیم.\n[نام قانونی فرستنده، نشانی پستی، تماس و لغو دریافت]",
+      "follow_up": "DRAFT → eligible contact or permitted post → actual evidence → reply → discovery → quote → verified payment. No automatic send."
+    }
+  },
+  {
+    "code": "C05",
+    "alias": "customer-flow",
+    "price_min_cad": 299,
+    "price_max_cad": 699,
+    "keyword": "CRM setup Vancouver",
+    "status": "DRAFT",
+    "creative_brief": "Editorial navy/ivory typography; single problem, outcome, brand, CTA; no unsupported results or stock customer claims.",
+    "metrics": [
+      "conversations",
+      "qualified",
+      "quotes",
+      "verified_receipts",
+      "direct_cost",
+      "ad_spend"
+    ],
+    "en": {
+      "headline": "Stop losing potential customers.",
+      "support": "Make inquiry, booking and follow-up easier.",
+      "scope": "Map the inquiry journey; configure one agreed CRM, booking or follow-up workflow. Third-party subscriptions excluded.",
+      "cta": "Request a free initial consultation",
+      "landing": "/c05-en.html",
+      "variants": [
+        "Stop losing potential customers.\nMake inquiry, booking and follow-up easier.\nRequest a free initial consultation",
+        "What happens after someone sends an inquiry?\nMake inquiry, booking and follow-up easier.\nRequest a free initial consultation",
+        "Build a repeatable path from first contact to follow-up.\nMake inquiry, booking and follow-up easier.\nRequest a free initial consultation"
+      ],
+      "facebook": "Stop losing potential customers.\nMake inquiry, booking and follow-up easier.\nMap the inquiry journey; configure one agreed CRM, booking or follow-up workflow. Third-party subscriptions excluded.\nRequest a free initial consultation · Vancouver · English / فارسی",
+      "telegram": "Stop losing potential customers.\nMake inquiry, booking and follow-up easier.\nShoreline Digital | Request a free initial consultation",
+      "whatsapp": "Stop losing potential customers.\nMake inquiry, booking and follow-up easier.\nShoreline Digital | Request a free initial consultation",
+      "instagram": "Stop losing potential customers.\nMake inquiry, booking and follow-up easier.\nRequest a free initial consultation\n#VancouverBusiness",
+      "linkedin": "Stop losing potential customers.\nMake inquiry, booking and follow-up easier.\nMap the inquiry journey; configure one agreed CRM, booking or follow-up workflow. Third-party subscriptions excluded.\nRequest a free initial consultation · Vancouver · English / فارسی",
+      "email_template": "Hello [name],\nI noticed [verified observation] at [business]. Make inquiry, booking and follow-up easier. We can discuss whether a scoped review would be useful. Request a free initial consultation.\n[legal sender name, mailing address, contact and unsubscribe]",
+      "follow_up": "DRAFT → eligible contact or permitted post → actual evidence → reply → discovery → quote → verified payment. No automatic send."
+    },
+    "fa": {
+      "headline": "مشتریان بالقوه را از دست ندهید.",
+      "support": "درخواست، رزرو و پیگیری مشتریان را ساده‌تر کنید.",
+      "scope": "مسیر درخواست مشتری را بررسی می‌کنیم و یک فرایند توافق‌شده CRM، رزرو یا پیگیری را راه‌اندازی می‌کنیم.",
+      "cta": "درخواست مشاوره اولیه رایگان",
+      "landing": "/c05-fa.html",
+      "variants": [
+        "مشتریان بالقوه را از دست ندهید.\nدرخواست، رزرو و پیگیری مشتریان را ساده‌تر کنید.\nدرخواست مشاوره اولیه رایگان",
+        "بعد از اولین تماس مشتری چه اتفاقی می‌افتد؟\nدرخواست، رزرو و پیگیری مشتریان را ساده‌تر کنید.\nدرخواست مشاوره اولیه رایگان",
+        "مسیر پیگیری مشتری را منظم و قابل تکرار کنید.\nدرخواست، رزرو و پیگیری مشتریان را ساده‌تر کنید.\nدرخواست مشاوره اولیه رایگان"
+      ],
+      "facebook": "مشتریان بالقوه را از دست ندهید.\nدرخواست، رزرو و پیگیری مشتریان را ساده‌تر کنید.\nمسیر درخواست مشتری را بررسی می‌کنیم و یک فرایند توافق‌شده CRM، رزرو یا پیگیری را راه‌اندازی می‌کنیم.\nدرخواست مشاوره اولیه رایگان · Vancouver · English / فارسی",
+      "telegram": "مشتریان بالقوه را از دست ندهید.\nدرخواست، رزرو و پیگیری مشتریان را ساده‌تر کنید.\nShoreline Digital | درخواست مشاوره اولیه رایگان",
+      "whatsapp": "مشتریان بالقوه را از دست ندهید.\nدرخواست، رزرو و پیگیری مشتریان را ساده‌تر کنید.\nShoreline Digital | درخواست مشاوره اولیه رایگان",
+      "instagram": "مشتریان بالقوه را از دست ندهید.\nدرخواست، رزرو و پیگیری مشتریان را ساده‌تر کنید.\nدرخواست مشاوره اولیه رایگان\n#VancouverBusiness",
+      "linkedin": "مشتریان بالقوه را از دست ندهید.\nدرخواست، رزرو و پیگیری مشتریان را ساده‌تر کنید.\nمسیر درخواست مشتری را بررسی می‌کنیم و یک فرایند توافق‌شده CRM، رزرو یا پیگیری را راه‌اندازی می‌کنیم.\nدرخواست مشاوره اولیه رایگان · Vancouver · English / فارسی",
+      "email_template": "سلام [نام]،\nدر بررسی [کسب‌وکار] به [مشاهده مستند] برخوردم. درخواست، رزرو و پیگیری مشتریان را ساده‌تر کنید. در صورت تمایل درباره یک راهکار مشخص گفت‌وگو کنیم.\n[نام قانونی فرستنده، نشانی پستی، تماس و لغو دریافت]",
+      "follow_up": "DRAFT → eligible contact or permitted post → actual evidence → reply → discovery → quote → verified payment. No automatic send."
+    }
+  },
+  {
+    "code": "C06",
+    "alias": "automation",
+    "price_min_cad": 299,
+    "price_max_cad": 799,
+    "keyword": "AI automation consultant Vancouver",
+    "status": "DRAFT",
+    "creative_brief": "Editorial navy/ivory typography; single problem, outcome, brand, CTA; no unsupported results or stock customer claims.",
+    "metrics": [
+      "conversations",
+      "qualified",
+      "quotes",
+      "verified_receipts",
+      "direct_cost",
+      "ad_spend"
+    ],
+    "en": {
+      "headline": "Make AI work for your business.",
+      "support": "Reduce repetitive work, not human judgment.",
+      "scope": "Identify one practical use case, assess data risks, configure a bounded automation and test with agreed examples.",
+      "cta": "Request a free initial consultation",
+      "landing": "/c06-en.html",
+      "variants": [
+        "Make AI work for your business.\nReduce repetitive work, not human judgment.\nRequest a free initial consultation",
+        "Which repetitive task costs your team the most time?\nReduce repetitive work, not human judgment.\nRequest a free initial consultation",
+        "Start with one useful automation, not a complicated transformation.\nReduce repetitive work, not human judgment.\nRequest a free initial consultation"
+      ],
+      "facebook": "Make AI work for your business.\nReduce repetitive work, not human judgment.\nIdentify one practical use case, assess data risks, configure a bounded automation and test with agreed examples.\nRequest a free initial consultation · Vancouver · English / فارسی",
+      "telegram": "Make AI work for your business.\nReduce repetitive work, not human judgment.\nShoreline Digital | Request a free initial consultation",
+      "whatsapp": "Make AI work for your business.\nReduce repetitive work, not human judgment.\nShoreline Digital | Request a free initial consultation",
+      "instagram": "Make AI work for your business.\nReduce repetitive work, not human judgment.\nRequest a free initial consultation\n#VancouverBusiness",
+      "linkedin": "Make AI work for your business.\nReduce repetitive work, not human judgment.\nIdentify one practical use case, assess data risks, configure a bounded automation and test with agreed examples.\nRequest a free initial consultation · Vancouver · English / فارسی",
+      "email_template": "Hello [name],\nI noticed [verified observation] at [business]. Reduce repetitive work, not human judgment. We can discuss whether a scoped review would be useful. Request a free initial consultation.\n[legal sender name, mailing address, contact and unsubscribe]",
+      "follow_up": "DRAFT → eligible contact or permitted post → actual evidence → reply → discovery → quote → verified payment. No automatic send."
+    },
+    "fa": {
+      "headline": "هوش مصنوعی را به خدمت کسب‌وکارتان بگیرید.",
+      "support": "کارهای تکراری را کم کنید، نه نقش تصمیم‌گیری انسان را.",
+      "scope": "یک کاربرد عملی را انتخاب، ریسک داده را بررسی و اتوماسیون محدود را با نمونه‌های توافق‌شده آزمایش می‌کنیم.",
+      "cta": "درخواست مشاوره اولیه رایگان",
+      "landing": "/c06-fa.html",
+      "variants": [
+        "هوش مصنوعی را به خدمت کسب‌وکارتان بگیرید.\nکارهای تکراری را کم کنید، نه نقش تصمیم‌گیری انسان را.\nدرخواست مشاوره اولیه رایگان",
+        "کدام کار تکراری بیشترین وقت تیم را می‌گیرد؟\nکارهای تکراری را کم کنید، نه نقش تصمیم‌گیری انسان را.\nدرخواست مشاوره اولیه رایگان",
+        "از یک اتوماسیون واقعاً مفید شروع کنید.\nکارهای تکراری را کم کنید، نه نقش تصمیم‌گیری انسان را.\nدرخواست مشاوره اولیه رایگان"
+      ],
+      "facebook": "هوش مصنوعی را به خدمت کسب‌وکارتان بگیرید.\nکارهای تکراری را کم کنید، نه نقش تصمیم‌گیری انسان را.\nیک کاربرد عملی را انتخاب، ریسک داده را بررسی و اتوماسیون محدود را با نمونه‌های توافق‌شده آزمایش می‌کنیم.\nدرخواست مشاوره اولیه رایگان · Vancouver · English / فارسی",
+      "telegram": "هوش مصنوعی را به خدمت کسب‌وکارتان بگیرید.\nکارهای تکراری را کم کنید، نه نقش تصمیم‌گیری انسان را.\nShoreline Digital | درخواست مشاوره اولیه رایگان",
+      "whatsapp": "هوش مصنوعی را به خدمت کسب‌وکارتان بگیرید.\nکارهای تکراری را کم کنید، نه نقش تصمیم‌گیری انسان را.\nShoreline Digital | درخواست مشاوره اولیه رایگان",
+      "instagram": "هوش مصنوعی را به خدمت کسب‌وکارتان بگیرید.\nکارهای تکراری را کم کنید، نه نقش تصمیم‌گیری انسان را.\nدرخواست مشاوره اولیه رایگان\n#VancouverBusiness",
+      "linkedin": "هوش مصنوعی را به خدمت کسب‌وکارتان بگیرید.\nکارهای تکراری را کم کنید، نه نقش تصمیم‌گیری انسان را.\nیک کاربرد عملی را انتخاب، ریسک داده را بررسی و اتوماسیون محدود را با نمونه‌های توافق‌شده آزمایش می‌کنیم.\nدرخواست مشاوره اولیه رایگان · Vancouver · English / فارسی",
+      "email_template": "سلام [نام]،\nدر بررسی [کسب‌وکار] به [مشاهده مستند] برخوردم. کارهای تکراری را کم کنید، نه نقش تصمیم‌گیری انسان را. در صورت تمایل درباره یک راهکار مشخص گفت‌وگو کنیم.\n[نام قانونی فرستنده، نشانی پستی، تماس و لغو دریافت]",
+      "follow_up": "DRAFT → eligible contact or permitted post → actual evidence → reply → discovery → quote → verified payment. No automatic send."
+    }
+  },
+  {
+    "code": "C07",
+    "alias": "operations",
+    "price_min_cad": 299,
+    "price_max_cad": 799,
+    "keyword": "business process automation Vancouver",
+    "status": "DRAFT",
+    "creative_brief": "Editorial navy/ivory typography; single problem, outcome, brand, CTA; no unsupported results or stock customer claims.",
+    "metrics": [
+      "conversations",
+      "qualified",
+      "quotes",
+      "verified_receipts",
+      "direct_cost",
+      "ad_spend"
+    ],
+    "en": {
+      "headline": "Upgrade your business operations.",
+      "support": "Connect the tools your team already uses.",
+      "scope": "Map one business process, define ownership and handoffs, and implement a scoped improvement with documentation.",
+      "cta": "Request a free initial consultation",
+      "landing": "/c07-en.html",
+      "variants": [
+        "Upgrade your business operations.\nConnect the tools your team already uses.\nRequest a free initial consultation",
+        "Your tools should work together.\nConnect the tools your team already uses.\nRequest a free initial consultation",
+        "Make handoffs and repetitive processes easier to manage.\nConnect the tools your team already uses.\nRequest a free initial consultation"
+      ],
+      "facebook": "Upgrade your business operations.\nConnect the tools your team already uses.\nMap one business process, define ownership and handoffs, and implement a scoped improvement with documentation.\nRequest a free initial consultation · Vancouver · English / فارسی",
+      "telegram": "Upgrade your business operations.\nConnect the tools your team already uses.\nShoreline Digital | Request a free initial consultation",
+      "whatsapp": "Upgrade your business operations.\nConnect the tools your team already uses.\nShoreline Digital | Request a free initial consultation",
+      "instagram": "Upgrade your business operations.\nConnect the tools your team already uses.\nRequest a free initial consultation\n#VancouverBusiness",
+      "linkedin": "Upgrade your business operations.\nConnect the tools your team already uses.\nMap one business process, define ownership and handoffs, and implement a scoped improvement with documentation.\nRequest a free initial consultation · Vancouver · English / فارسی",
+      "email_template": "Hello [name],\nI noticed [verified observation] at [business]. Connect the tools your team already uses. We can discuss whether a scoped review would be useful. Request a free initial consultation.\n[legal sender name, mailing address, contact and unsubscribe]",
+      "follow_up": "DRAFT → eligible contact or permitted post → actual evidence → reply → discovery → quote → verified payment. No automatic send."
+    },
+    "fa": {
+      "headline": "عملیات کسب‌وکارتان را ساده‌تر کنید.",
+      "support": "ابزارهایی را که تیم شما استفاده می‌کند، به هم متصل کنید.",
+      "scope": "یک فرایند تجاری، مسئولیت‌ها و نقاط انتقال را بررسی می‌کنیم و اصلاح مشخصی همراه با مستندات انجام می‌دهیم.",
+      "cta": "درخواست مشاوره اولیه رایگان",
+      "landing": "/c07-fa.html",
+      "variants": [
+        "عملیات کسب‌وکارتان را ساده‌تر کنید.\nابزارهایی را که تیم شما استفاده می‌کند، به هم متصل کنید.\nدرخواست مشاوره اولیه رایگان",
+        "ابزارهای کسب‌وکارتان باید با هم کار کنند.\nابزارهایی را که تیم شما استفاده می‌کند، به هم متصل کنید.\nدرخواست مشاوره اولیه رایگان",
+        "فرایندهای تکراری و انتقال کار را ساده کنید.\nابزارهایی را که تیم شما استفاده می‌کند، به هم متصل کنید.\nدرخواست مشاوره اولیه رایگان"
+      ],
+      "facebook": "عملیات کسب‌وکارتان را ساده‌تر کنید.\nابزارهایی را که تیم شما استفاده می‌کند، به هم متصل کنید.\nیک فرایند تجاری، مسئولیت‌ها و نقاط انتقال را بررسی می‌کنیم و اصلاح مشخصی همراه با مستندات انجام می‌دهیم.\nدرخواست مشاوره اولیه رایگان · Vancouver · English / فارسی",
+      "telegram": "عملیات کسب‌وکارتان را ساده‌تر کنید.\nابزارهایی را که تیم شما استفاده می‌کند، به هم متصل کنید.\nShoreline Digital | درخواست مشاوره اولیه رایگان",
+      "whatsapp": "عملیات کسب‌وکارتان را ساده‌تر کنید.\nابزارهایی را که تیم شما استفاده می‌کند، به هم متصل کنید.\nShoreline Digital | درخواست مشاوره اولیه رایگان",
+      "instagram": "عملیات کسب‌وکارتان را ساده‌تر کنید.\nابزارهایی را که تیم شما استفاده می‌کند، به هم متصل کنید.\nدرخواست مشاوره اولیه رایگان\n#VancouverBusiness",
+      "linkedin": "عملیات کسب‌وکارتان را ساده‌تر کنید.\nابزارهایی را که تیم شما استفاده می‌کند، به هم متصل کنید.\nیک فرایند تجاری، مسئولیت‌ها و نقاط انتقال را بررسی می‌کنیم و اصلاح مشخصی همراه با مستندات انجام می‌دهیم.\nدرخواست مشاوره اولیه رایگان · Vancouver · English / فارسی",
+      "email_template": "سلام [نام]،\nدر بررسی [کسب‌وکار] به [مشاهده مستند] برخوردم. ابزارهایی را که تیم شما استفاده می‌کند، به هم متصل کنید. در صورت تمایل درباره یک راهکار مشخص گفت‌وگو کنیم.\n[نام قانونی فرستنده، نشانی پستی، تماس و لغو دریافت]",
+      "follow_up": "DRAFT → eligible contact or permitted post → actual evidence → reply → discovery → quote → verified payment. No automatic send."
+    }
+  },
+  {
+    "code": "C08",
+    "alias": "website-rescue",
+    "price_min_cad": 149,
+    "price_max_cad": 399,
+    "keyword": "website troubleshooting Vancouver",
+    "status": "DRAFT",
+    "creative_brief": "Editorial navy/ivory typography; single problem, outcome, brand, CTA; no unsupported results or stock customer claims.",
+    "metrics": [
+      "conversations",
+      "qualified",
+      "quotes",
+      "verified_receipts",
+      "direct_cost",
+      "ad_spend"
+    ],
+    "en": {
+      "headline": "Business website rescue.",
+      "support": "Get a clear diagnosis and fix for a specific digital issue.",
+      "scope": "Diagnose and scope one website, software or business-system issue; implement agreed repair and verification. No hardware repairs.",
+      "cta": "Request a free initial consultation",
+      "landing": "/c08-en.html",
+      "variants": [
+        "Business website rescue.\nGet a clear diagnosis and fix for a specific digital issue.\nRequest a free initial consultation",
+        "Is a broken website costing you inquiries?\nGet a clear diagnosis and fix for a specific digital issue.\nRequest a free initial consultation",
+        "Fix the issue, verify the result, and move forward.\nGet a clear diagnosis and fix for a specific digital issue.\nRequest a free initial consultation"
+      ],
+      "facebook": "Business website rescue.\nGet a clear diagnosis and fix for a specific digital issue.\nDiagnose and scope one website, software or business-system issue; implement agreed repair and verification. No hardware repairs.\nRequest a free initial consultation · Vancouver · English / فارسی",
+      "telegram": "Business website rescue.\nGet a clear diagnosis and fix for a specific digital issue.\nShoreline Digital | Request a free initial consultation",
+      "whatsapp": "Business website rescue.\nGet a clear diagnosis and fix for a specific digital issue.\nShoreline Digital | Request a free initial consultation",
+      "instagram": "Business website rescue.\nGet a clear diagnosis and fix for a specific digital issue.\nRequest a free initial consultation\n#VancouverBusiness",
+      "linkedin": "Business website rescue.\nGet a clear diagnosis and fix for a specific digital issue.\nDiagnose and scope one website, software or business-system issue; implement agreed repair and verification. No hardware repairs.\nRequest a free initial consultation · Vancouver · English / فارسی",
+      "email_template": "Hello [name],\nI noticed [verified observation] at [business]. Get a clear diagnosis and fix for a specific digital issue. We can discuss whether a scoped review would be useful. Request a free initial consultation.\n[legal sender name, mailing address, contact and unsubscribe]",
+      "follow_up": "DRAFT → eligible contact or permitted post → actual evidence → reply → discovery → quote → verified payment. No automatic send."
+    },
+    "fa": {
+      "headline": "مشکل وب‌سایت تجاری‌تان را برطرف کنید.",
+      "support": "یک مشکل مشخص دیجیتال را تشخیص دهید و برطرف کنید.",
+      "scope": "یک مشکل مشخص سایت، نرم‌افزار یا سیستم تجاری را بررسی و پس از توافق رفع و آزمایش می‌کنیم. بدون تعمیر سخت‌افزار.",
+      "cta": "درخواست مشاوره اولیه رایگان",
+      "landing": "/c08-fa.html",
+      "variants": [
+        "مشکل وب‌سایت تجاری‌تان را برطرف کنید.\nیک مشکل مشخص دیجیتال را تشخیص دهید و برطرف کنید.\nدرخواست مشاوره اولیه رایگان",
+        "اختلال سایت مانع دریافت درخواست مشتری است؟\nیک مشکل مشخص دیجیتال را تشخیص دهید و برطرف کنید.\nدرخواست مشاوره اولیه رایگان",
+        "مشکل را رفع کنید و نتیجه را بسنجید.\nیک مشکل مشخص دیجیتال را تشخیص دهید و برطرف کنید.\nدرخواست مشاوره اولیه رایگان"
+      ],
+      "facebook": "مشکل وب‌سایت تجاری‌تان را برطرف کنید.\nیک مشکل مشخص دیجیتال را تشخیص دهید و برطرف کنید.\nیک مشکل مشخص سایت، نرم‌افزار یا سیستم تجاری را بررسی و پس از توافق رفع و آزمایش می‌کنیم. بدون تعمیر سخت‌افزار.\nدرخواست مشاوره اولیه رایگان · Vancouver · English / فارسی",
+      "telegram": "مشکل وب‌سایت تجاری‌تان را برطرف کنید.\nیک مشکل مشخص دیجیتال را تشخیص دهید و برطرف کنید.\nShoreline Digital | درخواست مشاوره اولیه رایگان",
+      "whatsapp": "مشکل وب‌سایت تجاری‌تان را برطرف کنید.\nیک مشکل مشخص دیجیتال را تشخیص دهید و برطرف کنید.\nShoreline Digital | درخواست مشاوره اولیه رایگان",
+      "instagram": "مشکل وب‌سایت تجاری‌تان را برطرف کنید.\nیک مشکل مشخص دیجیتال را تشخیص دهید و برطرف کنید.\nدرخواست مشاوره اولیه رایگان\n#VancouverBusiness",
+      "linkedin": "مشکل وب‌سایت تجاری‌تان را برطرف کنید.\nیک مشکل مشخص دیجیتال را تشخیص دهید و برطرف کنید.\nیک مشکل مشخص سایت، نرم‌افزار یا سیستم تجاری را بررسی و پس از توافق رفع و آزمایش می‌کنیم. بدون تعمیر سخت‌افزار.\nدرخواست مشاوره اولیه رایگان · Vancouver · English / فارسی",
+      "email_template": "سلام [نام]،\nدر بررسی [کسب‌وکار] به [مشاهده مستند] برخوردم. یک مشکل مشخص دیجیتال را تشخیص دهید و برطرف کنید. در صورت تمایل درباره یک راهکار مشخص گفت‌وگو کنیم.\n[نام قانونی فرستنده، نشانی پستی، تماس و لغو دریافت]",
+      "follow_up": "DRAFT → eligible contact or permitted post → actual evidence → reply → discovery → quote → verified payment. No automatic send."
+    }
+  }
+]

@@ -1,0 +1,14 @@
+# Shoreline Digital V5 — activation, 2026-11-25
+
+## Merchant read-back
+Founder authorized temporary Noetfield Systems Inc. merchant; Stripe live account acct_1SfSseJ03eJkL57J accessible. Product search for Shoreline returned zero, active payment-link list returned no Shoreline match. Tax settings pending (head_office missing); active Stripe Tax registrations zero. This is not proof of Canadian tax-registration status. No product, price, payment link, charge, tax-setting write or invoice created. Do not treat synthetic tests as receipts.
+
+## Go to market
+Use /offers-en.html and /offers-fa.html: four scoped services (C01 299, C04 499, C03 249, C08 149 CAD; indicative before applicable tax). Two C01 and two C04 = CAD 1596 service value, not collected revenue. Scope, schedule, taxes, cancellation and acceptance confirmed before payment. Quote flow and CRM from V4 retained. All leads are research or real inbound only, not invented.
+
+## Activation sequence
+1. Confirm current GST/HST collection status, registered business/head-office address and applicable Stripe Tax product codes; configure Stripe Tax where required. Do not change account-wide settings blindly. Existing authorized merchant need not be replaced.
+2. Configure separate Shoreline runtime environment: SHORELINE_STRIPE_KEY (in secret manager, never commit); SHORELINE_STRIPE_ACCOUNT=acct_1SfSseJ03eJkL57J; SHORELINE_PUBLIC_URL; SHORELINE_TAX_MODE=stripe_automatic_exclusive (with SHORELINE_STRIPE_TAX_CODE after verified registration and code) or confirmed_no_collection only if actually lawful. Do not use the latter as a workaround. Automatic tax is exclusive; verify the Stripe total and service subtotal. Transaction metadata includes venture, quote and invoice. Receipt evidence records gross, tax and service amount; existing metrics sum service amounts only. Refunds and payouts need separate accounting. Manual bank attestation is not independent processor verification. No fake or test live charges.
+3. Publish the source in a separate repository and deployment on authorized infrastructure with TLS, persistent volume and private credentials. Built-in Python HTTP server is local evaluation only; put behind a production-grade reverse proxy and harden request limits. No separate Vercel scope for Noetfield was identified; no deployment under the 777 Foundation. No local authenticated deployment CLI found. No changes to existing projects.
+4. Publish the organic copy in permitted founder-owned groups; verify lawful outreach basis, sender identity, and recipient permission before direct messages. Confirm leads by discovery, quote individually, and reconcile paid transactions. No advertising spend authorized or made.
+5. Prioritize C01 and C04, and log every actual customer conversation. Payment links can be shared once live configuration is ready, not before. Keep brand, revenue attribution and customer data separate.

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "SD-C01",
+    "campaign": "competition",
+    "price": 299,
+    "title": "Competitive Intelligence",
+    "fa": "تحلیل تخصصی رقبا",
+    "scope": "Up to five direct competitors, public evidence, digital presence and prioritized growth actions. One report and 30-minute review.",
+    "scope_fa": "بررسی حداکثر پنج رقیب مستقیم، شواهد عمومی، ارزیابی حضور دیجیتال و برنامه رشد؛ یک گزارش و جلسه ۳۰ دقیقه‌ای."
+  },
+  {
+    "id": "SD-C04",
+    "campaign": "launch",
+    "price": 499,
+    "title": "Digital Business Launch",
+    "fa": "راه‌اندازی دیجیتال کسب‌وکار",
+    "scope": "One launch landing page, basic local discovery setup and inquiry routing. Domain, hosting and third-party charges separately agreed.",
+    "scope_fa": "یک صفحه معرفی، تنظیمات پایه دیده‌شدن محلی و مسیر درخواست مشتری. هزینه دامنه، میزبانی و سرویس ثالث جداگانه توافق می‌شود."
+  },
+  {
+    "id": "SD-C03",
+    "campaign": "ad-performance",
+    "price": 249,
+    "title": "Advertising Assessment",
+    "fa": "ارزیابی تبلیغات",
+    "scope": "Review one existing channel and its landing journey, with prioritized recommendations. Ad spend and implementation excluded.",
+    "scope_fa": "بررسی یک کانال تبلیغاتی و مسیر تبدیل مشتری، همراه پیشنهادهای اولویت‌بندی‌شده. هزینه تبلیغات و اجرا جداست."
+  },
+  {
+    "id": "SD-C08",
+    "campaign": "website-rescue",
+    "price": 149,
+    "title": "Digital Business Rescue",
+    "fa": "رفع مشکل دیجیتال کسب‌وکار",
+    "scope": "Diagnosis and up to one hour of agreed remote remediation for one website or business system issue; additional work quoted.",
+    "scope_fa": "تشخیص و حداکثر یک ساعت رفع مشکل از راه دور برای یک مشکل مشخص وب‌سایت یا سیستم تجاری؛ کار اضافی با پیشنهاد جداگانه."
+  }
+]

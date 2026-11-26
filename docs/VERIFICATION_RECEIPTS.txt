@@ -1,0 +1,23 @@
+test_full_flow (__main__.RuntimeTest.test_full_flow) ... 127.0.0.1 - - [26/Nov/2026 05:18:48] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:18:48] "GET /competition-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:18:48] "GET /competition-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:18:48] "GET /visibility-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:18:48] "GET /visibility-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:18:48] "GET /automation-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:18:48] "GET /automation-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:18:48] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:18:48] "GET /digital-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:18:48] "GET /api/operator/leads HTTP/1.1" 401 -
+127.0.0.1 - - [26/Nov/2026 05:18:48] "POST /api/requests HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 05:18:48] "POST /api/requests HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 05:18:48] "POST /api/requests HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 05:18:48] "GET /api/operator/leads HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:18:48] "POST /api/operator/update HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 05:18:48] "POST /api/operator/update HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:18:48] "GET /operator HTTP/1.1" 200 -
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.586s
+
+OK

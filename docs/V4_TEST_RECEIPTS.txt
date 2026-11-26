@@ -1,0 +1,242 @@
+test_full_flow (__main__.RuntimeTest.test_full_flow) ... 127.0.0.1 - - [26/Nov/2026 05:28:51] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:28:51] "GET /competition-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:28:51] "GET /competition-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:28:51] "GET /visibility-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:28:51] "GET /visibility-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:28:51] "GET /automation-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:28:51] "GET /automation-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:28:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:28:51] "GET /digital-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:28:51] "GET /api/operator/leads HTTP/1.1" 401 -
+127.0.0.1 - - [26/Nov/2026 05:28:51] "POST /api/requests HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 05:28:51] "POST /api/requests HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 05:28:51] "POST /api/requests HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 05:28:51] "GET /api/operator/leads HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:28:51] "POST /api/operator/update HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 05:28:51] "POST /api/operator/update HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:28:51] "GET /operator HTTP/1.1" 200 -
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.549s
+
+OK
+test_quote_cash (__main__.CommerceTest.test_quote_cash) ... 127.0.0.1 - - [26/Nov/2026 05:28:53] "POST /api/requests HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 05:28:53] "POST /api/commerce/quote HTTP/1.1" 401 -
+127.0.0.1 - - [26/Nov/2026 05:28:53] "POST /api/commerce/quote HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 05:28:53] "POST /api/commerce/quote HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 05:28:53] "GET /api/quote?token=[redacted] HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:28:53] "GET /api/quote?token=[redacted] HTTP/1.1" 404 -
+127.0.0.1 - - [26/Nov/2026 05:28:53] "POST /api/quote/accept HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 05:28:53] "POST /api/quote/accept HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 05:28:53] "POST /api/quote/accept HTTP/1.1" 409 -
+127.0.0.1 - - [26/Nov/2026 05:28:53] "GET /api/quote?token=[redacted] HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:28:53] "POST /api/quote/checkout HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 05:28:53] "POST /api/commerce/reconcile HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 05:28:53] "POST /api/commerce/manual HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 05:28:53] "POST /api/commerce/manual HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 05:28:53] "POST /api/commerce/manual HTTP/1.1" 409 -
+127.0.0.1 - - [26/Nov/2026 05:28:53] "GET /api/commerce HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:28:53] "GET /api/commerce HTTP/1.1" 401 -
+ok
+test_radar (__main__.CommerceTest.test_radar) ... /usr/lib/python3.13/json/encoder.py:105: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f962fdcd8a0>
+  def __init__(self, *, skipkeys=False, ensure_ascii=True,
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/json/encoder.py:105: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f962fdcdc60>
+  def __init__(self, *, skipkeys=False, ensure_ascii=True,
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/json/encoder.py:105: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f962fdce110>
+  def __init__(self, *, skipkeys=False, ensure_ascii=True,
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/json/encoder.py:105: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f962fdce200>
+  def __init__(self, *, skipkeys=False, ensure_ascii=True,
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/json/encoder.py:105: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f962fdce2f0>
+  def __init__(self, *, skipkeys=False, ensure_ascii=True,
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/json/encoder.py:105: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f962fdce6b0>
+  def __init__(self, *, skipkeys=False, ensure_ascii=True,
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/json/encoder.py:105: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f962fdcec50>
+  def __init__(self, *, skipkeys=False, ensure_ascii=True,
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/json/encoder.py:105: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f962fdced40>
+  def __init__(self, *, skipkeys=False, ensure_ascii=True,
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/json/encoder.py:105: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f962fdceb60>
+  def __init__(self, *, skipkeys=False, ensure_ascii=True,
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/json/encoder.py:105: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f962fdcf3d0>
+  def __init__(self, *, skipkeys=False, ensure_ascii=True,
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/json/encoder.py:105: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f962fdcf790>
+  def __init__(self, *, skipkeys=False, ensure_ascii=True,
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/json/encoder.py:105: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f962fdcf970>
+  def __init__(self, *, skipkeys=False, ensure_ascii=True,
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/json/encoder.py:105: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f962fdcfd30>
+  def __init__(self, *, skipkeys=False, ensure_ascii=True,
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/json/encoder.py:105: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f962fdcfe20>
+  def __init__(self, *, skipkeys=False, ensure_ascii=True,
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/json/encoder.py:105: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f962fae4220>
+  def __init__(self, *, skipkeys=False, ensure_ascii=True,
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+127.0.0.1 - - [26/Nov/2026 05:28:53] "POST /api/commerce/opportunity HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 05:28:53] "POST /api/commerce/opportunity HTTP/1.1" 201 -
+ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.567s
+
+OK
+test_growth_pipeline (__main__.GrowthTest.test_growth_pipeline) ... 127.0.0.1 - - [26/Nov/2026 05:29:36] "GET /api/growth/research HTTP/1.1" 401 -
+127.0.0.1 - - [26/Nov/2026 05:29:36] "GET /api/growth/research HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:36] "GET /c01-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:36] "GET /c01-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:36] "POST /api/requests HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 05:29:36] "GET /c02-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:36] "GET /c02-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:36] "POST /api/requests HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 05:29:36] "GET /c03-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:36] "GET /c03-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:36] "POST /api/requests HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 05:29:36] "GET /c04-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:36] "GET /c04-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:36] "POST /api/requests HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 05:29:36] "GET /c05-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:36] "GET /c05-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:36] "POST /api/requests HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 05:29:36] "GET /c06-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /c06-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "POST /api/requests HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /c07-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /c07-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "POST /api/requests HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /c08-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /c08-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "POST /api/requests HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /bi-08-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /industry-10-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /c08-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /bi-05-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /c04-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /bi-09-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /bi-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /industry-06-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /bi-10-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /campaigns-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /c05-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /industry-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /c06-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /industry-05-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /bi-01-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /bi-09-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /industry-03-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /industry-05-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /c02-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /bi-02-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /bi-03-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /c04-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /industry-08-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /industry-02-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /industry-08-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /industry-11-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /bi-10-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /bi-12-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /automation-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /industry-01-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /bi-06-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /bi-07-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /industry-01-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /bi-12-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /c06-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /industry-09-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /digital.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /industry-02-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /competition-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /industry-03-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /c02-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /bi-07-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /bi-04-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /competition-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /bi-03-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /industry-12-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /industry-10-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /industry-04-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /c03-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /industry-04-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /bi-04-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /c08-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /industry-09-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /industry-12-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /bi-11-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /bi-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /visibility-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /industry-07-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /digital-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /c01-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /bi-02-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /bi-08-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /industry-07-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /c05-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /c03-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /visibility-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /bi-11-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /automation-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /bi-06-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /campaigns-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /bi-05-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /c01-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /bi-01-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /industry-11-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /c07-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /quote.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /c07-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /industry-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /industry-06-fa.html HTTP/1.1" 200 -
+/mnt/data/shoreline-v4/growth.py:18: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f116513a5c0>
+  for stage in STAGES:r[stage.lower()]=c.execute('SELECT count(DISTINCT subject) FROM acquisition_events WHERE campaign=? AND stage=?',(campaign,stage)).fetchone()[0]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/shoreline-v4/growth.py:18: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f116513a7a0>
+  for stage in STAGES:r[stage.lower()]=c.execute('SELECT count(DISTINCT subject) FROM acquisition_events WHERE campaign=? AND stage=?',(campaign,stage)).fetchone()[0]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/shoreline-v4/growth.py:18: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f116513aa70>
+  for stage in STAGES:r[stage.lower()]=c.execute('SELECT count(DISTINCT subject) FROM acquisition_events WHERE campaign=? AND stage=?',(campaign,stage)).fetchone()[0]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/shoreline-v4/growth.py:18: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f116513a4d0>
+  for stage in STAGES:r[stage.lower()]=c.execute('SELECT count(DISTINCT subject) FROM acquisition_events WHERE campaign=? AND stage=?',(campaign,stage)).fetchone()[0]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/shoreline-v4/growth.py:18: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f116513a6b0>
+  for stage in STAGES:r[stage.lower()]=c.execute('SELECT count(DISTINCT subject) FROM acquisition_events WHERE campaign=? AND stage=?',(campaign,stage)).fetchone()[0]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/shoreline-v4/growth.py:18: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f116513a890>
+  for stage in STAGES:r[stage.lower()]=c.execute('SELECT count(DISTINCT subject) FROM acquisition_events WHERE campaign=? AND stage=?',(campaign,stage)).fetchone()[0]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/shoreline-v4/growth.py:18: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f116513a980>
+  for stage in STAGES:r[stage.lower()]=c.execute('SELECT count(DISTINCT subject) FROM acquisition_events WHERE campaign=? AND stage=?',(campaign,stage)).fetchone()[0]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/shoreline-v4/growth.py:18: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f116513ab60>
+  for stage in STAGES:r[stage.lower()]=c.execute('SELECT count(DISTINCT subject) FROM acquisition_events WHERE campaign=? AND stage=?',(campaign,stage)).fetchone()[0]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /api/growth/metrics HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "POST /api/growth/event HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "POST /api/growth/event HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "POST /api/growth/event HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "POST /api/growth/event HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "POST /api/growth/cost HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "POST /api/growth/cost HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "POST /api/growth/cost HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /api/growth/metrics HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /growth HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:29:37] "GET /growth HTTP/1.1" 401 -
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.686s
+
+OK
+
+82 HTML pages; 76 inline scripts syntax PASS

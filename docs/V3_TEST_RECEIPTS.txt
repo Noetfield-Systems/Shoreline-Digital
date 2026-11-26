@@ -1,0 +1,73 @@
+test_full_flow (test_runtime.RuntimeTest.test_full_flow) ... 127.0.0.1 - - [26/Nov/2026 05:22:11] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:22:11] "GET /competition-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:22:11] "GET /competition-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:22:11] "GET /visibility-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:22:11] "GET /visibility-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:22:11] "GET /automation-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:22:11] "GET /automation-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:22:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:22:11] "GET /digital-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:22:11] "GET /api/operator/leads HTTP/1.1" 401 -
+127.0.0.1 - - [26/Nov/2026 05:22:11] "POST /api/requests HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 05:22:11] "POST /api/requests HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 05:22:11] "POST /api/requests HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 05:22:11] "GET /api/operator/leads HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:22:11] "POST /api/operator/update HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 05:22:11] "POST /api/operator/update HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:22:11] "GET /operator HTTP/1.1" 200 -
+ok
+test_quote_cash (test_commerce.CommerceTest.test_quote_cash) ... 127.0.0.1 - - [26/Nov/2026 05:22:11] "POST /api/requests HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 05:22:11] "POST /api/commerce/quote HTTP/1.1" 401 -
+127.0.0.1 - - [26/Nov/2026 05:22:11] "POST /api/commerce/quote HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 05:22:11] "POST /api/commerce/quote HTTP/1.1" 201 -
+/usr/lib/python3.13/email/_policybase.py:301: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f67ad8b98a0>
+  def header_source_parse(self, sourcelines):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/email/_policybase.py:301: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f67ad8b9e40>
+  def header_source_parse(self, sourcelines):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/email/_policybase.py:301: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f67ad8ba020>
+  def header_source_parse(self, sourcelines):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/email/_policybase.py:301: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f67ad8ba110>
+  def header_source_parse(self, sourcelines):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/email/_policybase.py:301: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f67ad8ba2f0>
+  def header_source_parse(self, sourcelines):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/email/_policybase.py:301: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f67ad8b97b0>
+  def header_source_parse(self, sourcelines):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/email/_policybase.py:301: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f67ad8ba5c0>
+  def header_source_parse(self, sourcelines):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/email/_policybase.py:301: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f67ad8ba4d0>
+  def header_source_parse(self, sourcelines):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/email/_policybase.py:301: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f67ad8bad40>
+  def header_source_parse(self, sourcelines):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+127.0.0.1 - - [26/Nov/2026 05:22:11] "GET /api/quote?token=[redacted] HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:22:11] "GET /api/quote?token=[redacted] HTTP/1.1" 404 -
+127.0.0.1 - - [26/Nov/2026 05:22:11] "POST /api/quote/accept HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 05:22:11] "POST /api/quote/accept HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 05:22:11] "POST /api/quote/accept HTTP/1.1" 409 -
+127.0.0.1 - - [26/Nov/2026 05:22:11] "GET /api/quote?token=[redacted] HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:22:11] "POST /api/quote/checkout HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 05:22:11] "POST /api/commerce/reconcile HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 05:22:11] "POST /api/commerce/manual HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 05:22:11] "POST /api/commerce/manual HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 05:22:11] "POST /api/commerce/manual HTTP/1.1" 409 -
+127.0.0.1 - - [26/Nov/2026 05:22:11] "GET /api/commerce HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 05:22:11] "GET /api/commerce HTTP/1.1" 401 -
+ok
+test_radar (test_commerce.CommerceTest.test_radar) ... 127.0.0.1 - - [26/Nov/2026 05:22:11] "POST /api/commerce/opportunity HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 05:22:11] "POST /api/commerce/opportunity HTTP/1.1" 201 -
+ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 1.110s
+
+OK
+
+JavaScript syntax PASS: 11 script blocks in 11 pages
