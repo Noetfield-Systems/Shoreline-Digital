@@ -1,0 +1,7 @@
+# V10 benchmark gap and evidence
+Observed 2026-11-25 Vancouver:
+- Major Tom (https://www.majortom.com/work): project-specific cases and reported results. Shoreline publishes a real public-source sample and illustrative handover checklist, not fabricated client work.
+- Nirvana Canada (https://www.nirvanacanada.com/our-services/web-development/): differentiated website, enterprise portal and ecommerce capability descriptions. Shoreline differentiates scope, exclusions, input, handover and pricing for eight service paths.
+- BHP (https://bhpsolution.com/persian-campaign): dedicated Persian service journey. Shoreline maintains native-language pages and inquiry path for eight services, twelve research specialties and twelve industries.
+Generated content: 45 paired routes (90 HTML pages) plus two legacy catalogue pages. Docker generates at build time; CI generates before tests. Shared design and JS; existing CRM, finance and delivery are not replaced. All inquiry receipts are stored requests, not bookings or payment.
+Remaining: actual direct customer interviews, real project portfolio, browser visual parity, deeper specialist capability proof, outbound sales, actual payment setup/collection, full native Vercel migration and operating analytics. Do not present this change as benchmark parity or full autonomous execution. No budget spent on advertising; no outreach or live charge initiated.

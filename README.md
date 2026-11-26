@@ -21,3 +21,6 @@ New premium English/RTL Persian studio at `/` and `/studio-fa.html`. Run `python
 
 ## V7 Intelligence & Delivery Studio
 Run `python intelligence.py` using the same Railway service, `/data` volume and authorized merchant configuration. Public self-reported assessment: `/assessment-en.html`, `/assessment-fa.html`. Authenticated operator workspace: `/delivery-studio.html`. Create projects from accepted quotes; share private token links with customers, add evidence-backed findings and delivery milestones. No external notification, autonomous web scanner or live payment is claimed. Inbox refreshes while open. Run `python -m unittest -v test_runtime test_commerce test_growth test_revenue_v5 test_launch_v6 test_intelligence_v7`. See `docs/INTELLIGENCE_DELIVERY_V7.md`.
+
+## V10 service excellence
+Run `python build_excellence_v10.py` before serving locally. Docker and CI generate the same bilingual specialist, industry, catalogue, pricing, sample-work, about and inquiry privacy pages from `market/service_excellence_v10.json`. Existing operational routes and database stay unchanged. Samples are public research or explicitly illustrative; no customer projects claimed.
