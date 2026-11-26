@@ -1,0 +1,28 @@
+name: Shoreline regression
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest -v test_runtime test_commerce test_growth test_revenue_v5 test_launch_v6 test_intelligence_v7
+      - name: Validate inline JavaScript
+        run: |
+          python - <<'PY'
+          import re, pathlib, subprocess, tempfile
+          for path in pathlib.Path('public').glob('*.html'):
+              for script in re.findall(r'<script(?:\s[^>]*)?>(.*?)</script>', path.read_text(), re.S|re.I):
+                  if script.strip():
+                      with tempfile.NamedTemporaryFile(suffix='.js', mode='w') as f:
+                          f.write(script)
+                          f.flush()
+                          subprocess.run(['node','--check',f.name],check=True)
+          PY
