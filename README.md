@@ -18,3 +18,6 @@ Use `python growth.py`. New scoped offers at `/offers-en.html` and `/offers-fa.h
 
 ## V6 Commercial Launch
 New premium English/RTL Persian studio at `/` and `/studio-fa.html`. Run `python production.py` behind managed HTTPS, with a persistent volume and unique operator password; see `docs/COMMERCIAL_LAUNCH_V6.md`. Legacy routes and V5 quote flow retained. Live Stripe remains configuration-dependent. Run `python -m unittest -v test_runtime test_commerce test_growth test_revenue_v5 test_launch_v6`.
+
+## V7 Intelligence & Delivery Studio
+Run `python intelligence.py` using the same Railway service, `/data` volume and authorized merchant configuration. Public self-reported assessment: `/assessment-en.html`, `/assessment-fa.html`. Authenticated operator workspace: `/delivery-studio.html`. Create projects from accepted quotes; share private token links with customers, add evidence-backed findings and delivery milestones. No external notification, autonomous web scanner or live payment is claimed. Inbox refreshes while open. Run `python -m unittest -v test_runtime test_commerce test_growth test_revenue_v5 test_launch_v6 test_intelligence_v7`. See `docs/INTELLIGENCE_DELIVERY_V7.md`.
