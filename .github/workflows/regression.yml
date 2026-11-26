@@ -26,3 +26,11 @@ jobs:
                           f.flush()
                           subprocess.run(['node','--check',f.name],check=True)
           PY
+
+      - name: Validate V8 static assets
+        run: |
+          node --check vercel-studio/app.js
+          node --check public/v8-preview.js
+          cmp vercel-studio/app.js public/v8-preview.js
+          cmp vercel-studio/style.css public/v8-preview.css
+          python -m json.tool vercel-studio/vercel.json > /dev/null
