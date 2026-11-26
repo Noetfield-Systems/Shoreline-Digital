@@ -4,4 +4,4 @@ COPY . .
 ENV HOST=0.0.0.0 PORT=8080 SHORELINE_DB=/data/shoreline.sqlite3
 RUN mkdir -p /data
 EXPOSE 8080
-CMD ["python", "production.py"]
+CMD ["python", "intelligence.py"]
