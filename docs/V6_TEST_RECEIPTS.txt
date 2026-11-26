@@ -1,0 +1,247 @@
+test_full_flow (test_runtime.RuntimeTest.test_full_flow) ... 127.0.0.1 - - [26/Nov/2026 06:03:52] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:52] "GET /competition-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:52] "GET /competition-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:52] "GET /visibility-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:52] "GET /visibility-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:52] "GET /automation-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:52] "GET /automation-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:52] "GET /digital-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:52] "GET /api/operator/leads HTTP/1.1" 401 -
+127.0.0.1 - - [26/Nov/2026 06:03:52] "POST /api/requests HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 06:03:52] "POST /api/requests HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 06:03:52] "POST /api/requests HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 06:03:52] "GET /api/operator/leads HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:52] "POST /api/operator/update HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 06:03:52] "POST /api/operator/update HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:52] "GET /operator HTTP/1.1" 200 -
+ok
+test_quote_cash (test_commerce.CommerceTest.test_quote_cash) ... 127.0.0.1 - - [26/Nov/2026 06:03:52] "POST /api/requests HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 06:03:52] "POST /api/commerce/quote HTTP/1.1" 401 -
+127.0.0.1 - - [26/Nov/2026 06:03:52] "POST /api/commerce/quote HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 06:03:52] "POST /api/commerce/quote HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 06:03:52] "GET /api/quote?token=[redacted] HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:52] "GET /api/quote?token=[redacted] HTTP/1.1" 404 -
+127.0.0.1 - - [26/Nov/2026 06:03:52] "POST /api/quote/accept HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 06:03:52] "POST /api/quote/accept HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 06:03:52] "POST /api/quote/accept HTTP/1.1" 409 -
+127.0.0.1 - - [26/Nov/2026 06:03:52] "GET /api/quote?token=[redacted] HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:52] "POST /api/quote/checkout HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 06:03:52] "POST /api/commerce/reconcile HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 06:03:52] "POST /api/commerce/manual HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 06:03:52] "POST /api/commerce/manual HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 06:03:52] "POST /api/commerce/manual HTTP/1.1" 409 -
+127.0.0.1 - - [26/Nov/2026 06:03:52] "GET /api/commerce HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:52] "GET /api/commerce HTTP/1.1" 401 -
+ok
+test_radar (test_commerce.CommerceTest.test_radar) ... 127.0.0.1 - - [26/Nov/2026 06:03:52] "POST /api/commerce/opportunity HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 06:03:52] "POST /api/commerce/opportunity HTTP/1.1" 201 -
+ok
+test_growth_pipeline (test_growth.GrowthTest.test_growth_pipeline) ... 127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /api/growth/research HTTP/1.1" 401 -
+/usr/lib/python3.13/socketserver.py:664: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fd554603970>
+  self[:] = (thread for thread in self if thread.is_alive())
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/socketserver.py:664: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fd554201c60>
+  self[:] = (thread for thread in self if thread.is_alive())
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/socketserver.py:664: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fd554201b70>
+  self[:] = (thread for thread in self if thread.is_alive())
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/socketserver.py:664: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fd5542016c0>
+  self[:] = (thread for thread in self if thread.is_alive())
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/socketserver.py:664: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fd554201e40>
+  self[:] = (thread for thread in self if thread.is_alive())
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/socketserver.py:664: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fd554200130>
+  self[:] = (thread for thread in self if thread.is_alive())
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/socketserver.py:664: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fd554202110>
+  self[:] = (thread for thread in self if thread.is_alive())
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/socketserver.py:664: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fd5542024d0>
+  self[:] = (thread for thread in self if thread.is_alive())
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/socketserver.py:664: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fd554202890>
+  self[:] = (thread for thread in self if thread.is_alive())
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/socketserver.py:664: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fd554202980>
+  self[:] = (thread for thread in self if thread.is_alive())
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/socketserver.py:664: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fd554202a70>
+  self[:] = (thread for thread in self if thread.is_alive())
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/socketserver.py:664: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fd554202e30>
+  self[:] = (thread for thread in self if thread.is_alive())
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/socketserver.py:664: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fd5542031f0>
+  self[:] = (thread for thread in self if thread.is_alive())
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/socketserver.py:664: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fd5542032e0>
+  self[:] = (thread for thread in self if thread.is_alive())
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/socketserver.py:664: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fd5542036a0>
+  self[:] = (thread for thread in self if thread.is_alive())
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/socketserver.py:664: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fd554203880>
+  self[:] = (thread for thread in self if thread.is_alive())
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/socketserver.py:664: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fd554203c40>
+  self[:] = (thread for thread in self if thread.is_alive())
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/socketserver.py:664: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fd554203f10>
+  self[:] = (thread for thread in self if thread.is_alive())
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/socketserver.py:664: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fd554280400>
+  self[:] = (thread for thread in self if thread.is_alive())
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/socketserver.py:664: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fd5542804f0>
+  self[:] = (thread for thread in self if thread.is_alive())
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/socketserver.py:664: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fd5542809a0>
+  self[:] = (thread for thread in self if thread.is_alive())
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/socketserver.py:664: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fd554280d60>
+  self[:] = (thread for thread in self if thread.is_alive())
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/socketserver.py:664: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7fd554281030>
+  self[:] = (thread for thread in self if thread.is_alive())
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /api/growth/research HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /c01-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /c01-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "POST /api/requests HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /c02-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /c02-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "POST /api/requests HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /c03-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /c03-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "POST /api/requests HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /c04-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /c04-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "POST /api/requests HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /c05-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /c05-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "POST /api/requests HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /c06-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /c06-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "POST /api/requests HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /c07-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /c07-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "POST /api/requests HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /c08-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /c08-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "POST /api/requests HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /bi-08-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /industry-10-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /c08-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /bi-05-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /c04-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /bi-09-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /bi-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /industry-06-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /bi-10-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /campaigns-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /offers-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /c05-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /industry-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /c06-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /industry-05-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /bi-01-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /studio-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /bi-09-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /industry-03-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /industry-05-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /c02-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /bi-02-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /bi-03-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /c04-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /industry-08-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /industry-02-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /industry-08-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /industry-11-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /offers-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /bi-10-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /bi-12-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /studio-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /automation-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /industry-01-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /bi-06-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /bi-07-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /industry-01-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /bi-12-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /c06-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /industry-09-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /digital.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /industry-02-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /competition-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /industry-03-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /c02-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /bi-07-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /bi-04-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /competition-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /bi-03-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /industry-12-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /industry-10-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /industry-04-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /c03-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /industry-04-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /bi-04-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /c08-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /industry-09-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /industry-12-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /bi-11-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /bi-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /visibility-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /industry-07-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /digital-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /c01-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /bi-02-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /bi-08-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /industry-07-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /c05-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /c03-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /visibility-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /bi-11-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /automation-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /bi-06-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /campaigns-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /bi-05-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /c01-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /bi-01-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /industry-11-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /c07-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /quote.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /c07-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /industry-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /industry-06-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /api/growth/metrics HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "POST /api/growth/event HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "POST /api/growth/event HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "POST /api/growth/event HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "POST /api/growth/event HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "POST /api/growth/cost HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "POST /api/growth/cost HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "POST /api/growth/cost HTTP/1.1" 400 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /api/growth/metrics HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /growth HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /growth HTTP/1.1" 401 -
+ok
+test_deposit_status_cannot_be_fabricated (test_revenue_v5.RevenueV5.test_deposit_status_cannot_be_fabricated) ... 127.0.0.1 - - [26/Nov/2026 06:03:53] "POST /api/requests HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "POST /api/operator/update HTTP/1.1" 400 -
+ok
+test_merchant_config (test_revenue_v5.RevenueV5.test_merchant_config) ... ok
+test_offer_pages (test_revenue_v5.RevenueV5.test_offer_pages) ... 127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /offers-en.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "GET /offers-fa.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "POST /api/requests HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "POST /api/requests HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "POST /api/requests HTTP/1.1" 201 -
+127.0.0.1 - - [26/Nov/2026 06:03:53] "POST /api/requests HTTP/1.1" 201 -
+ok
+test_home_and_assets (test_launch_v6.LaunchV6.test_home_and_assets) ... ok
+test_persisted_intake (test_launch_v6.LaunchV6.test_persisted_intake) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 2.802s
+
+OK

@@ -46,10 +46,10 @@ class Handler(BaseHTTPRequestHandler):
    if not self.auth():return
    with db() as c: rows=[dict(r) for r in c.execute('SELECT * FROM leads ORDER BY created DESC')]
    return self.send(200,{'leads':rows})
-  path='/digital.html' if path in ('/','/index.html') else path
+  path='/studio-en.html' if path in ('/','/index.html') else path
   f=PUBLIC/path.lstrip('/')
   if f.parent!=PUBLIC or not f.is_file():return self.send(404,{'error':'Not found'})
-  return self.send(200,f.read_bytes(),'text/html; charset=utf-8' if f.suffix=='.html' else 'text/plain; charset=utf-8')
+  return self.send(200,f.read_bytes(),{'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'application/javascript; charset=utf-8'}.get(f.suffix,'text/plain; charset=utf-8'))
  def do_POST(self):
   path=urlsplit(self.path).path
   if path=='/api/requests':

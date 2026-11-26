@@ -35,7 +35,7 @@ class Handler(com.Handler):
    with db() as c:c.execute('SELECT 1')
    try:com.stripe_config();payment='configured_not_verified'
    except ValueError:payment='not_connected'
-   return self.send(200,{'status':'ok','release':'5.0','payment':payment})
+   return self.send(200,{'status':'ok','release':'6.0','payment':payment})
   if path=='/growth' or path.startswith('/api/growth/'):
    if not self.auth():return
    if path=='/growth':return self.send(200,(ROOT/'growth.html').read_bytes(),'text/html; charset=utf-8')

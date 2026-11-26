@@ -15,3 +15,6 @@ Run `python commerce.py` instead of `python server.py`. `/commerce` is the priva
 
 ## V5 Revenue Activation
 Use `python growth.py`. New scoped offers at `/offers-en.html` and `/offers-fa.html`. See `docs/REVENUE_ACTIVATION_V5.md` for authorized merchant configuration, actual Stripe read-back and deployment limits. `python -m unittest -v test_runtime test_commerce test_growth test_revenue_v5` (local only). No live payment link or production deployment established by this release.
+
+## V6 Commercial Launch
+New premium English/RTL Persian studio at `/` and `/studio-fa.html`. Run `python production.py` behind managed HTTPS, with a persistent volume and unique operator password; see `docs/COMMERCIAL_LAUNCH_V6.md`. Legacy routes and V5 quote flow retained. Live Stripe remains configuration-dependent. Run `python -m unittest -v test_runtime test_commerce test_growth test_revenue_v5 test_launch_v6`.
