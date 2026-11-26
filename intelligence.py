@@ -56,6 +56,9 @@ class Handler(production.Handler):
             try: commerce.stripe_config(); payment='configured_not_verified'
             except ValueError: payment='not_connected'
             return self.send(200,{'status':'ok','release':'7.0','payment':payment,'delivery_workspace':'available'})
+        if path=='/delivery-studio.html':
+            if not self.auth(): return
+            return super().do_GET()
         if path=='/api/v7/operator':
             if not self.auth(): return
             with closing(db()) as c:
@@ -83,6 +86,7 @@ class Handler(production.Handler):
                     count=c.execute("SELECT count(*) FROM v7_feedback WHERE project_id=? AND created >= datetime('now','-1 hour')",(project['id'],)).fetchone()[0]
                     if count>=10:return self.send(429,{'error':'Try later'})
                     c.execute('INSERT INTO v7_feedback(id,project_id,message) VALUES(?,?,?)',(commerce.uid('FB'),project['id'],need(p,'message',2000)))
+                    c.commit()
                     return self.send(201,{'status':'received'})
                 c.execute('BEGIN IMMEDIATE')
                 if path=='/api/v7/project':
@@ -99,7 +103,7 @@ class Handler(production.Handler):
                     pid=need(p,'project_id',100);project_exists(c,pid)
                     status=need(p,'status',30)
                     if status not in ('planned','active','review','delivered','support','paused'):raise ValueError('Invalid status')
-                    if status=='delivered' and not c.execute("SELECT 1 FROM v7_milestones WHERE project_id=? AND status='complete' AND evidence<>''",(pid,)).fetchone():raise ValueError('Document delivery evidence first')
+                    if status=='delivered' and (not c.execute("SELECT 1 FROM v7_milestones WHERE project_id=?",(pid,)).fetchone() or c.execute("SELECT 1 FROM v7_milestones WHERE project_id=? AND (status<>'complete' OR evidence='')",(pid,)).fetchone()):raise ValueError('Complete every recorded milestone with evidence first')
                     c.execute('UPDATE v7_projects SET status=? WHERE id=?',(status,pid));result={'status':status}
                 elif path=='/api/v7/milestone':
                     pid=need(p,'project_id',100);project_exists(c,pid)
